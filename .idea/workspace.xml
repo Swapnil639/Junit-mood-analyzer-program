@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="506a34ef-b163-4b8e-9e24-b2df915d3b04" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/MoodAnalyzerException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/MoodAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/MoodAnalyzer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/MoodAnalyzerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/MoodAnalyzerTest.java" afterDir="false" />
@@ -43,7 +44,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.MoodAnalyzerTest">
+  <component name="RunManager" selected="JUnit.MoodAnalyzerTest.givenEmptyMood_ShouldReturnHappy">
     <configuration name="MoodAnalyzerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit-mood-analyzer-program" />
       <extension name="coverage">
@@ -55,6 +56,22 @@
       <option name="PACKAGE_NAME" value="com.bridgelabz" />
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.MoodAnalyzerTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoodAnalyzerTest.givenEmptyMood_ShouldReturnHappy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit-mood-analyzer-program" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.MoodAnalyzerTest" />
+      <option name="METHOD_NAME" value="givenEmptyMood_ShouldReturnHappy" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,8 +126,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MoodAnalyzerTest" />
+        <item itemvalue="JUnit.MoodAnalyzerTest.givenEmptyMood_ShouldReturnHappy" />
         <item itemvalue="JUnit.MoodAnalyzerTest.givenNullMood_ShouldReturnHappy" />
+        <item itemvalue="JUnit.MoodAnalyzerTest" />
         <item itemvalue="JUnit.MoodAnalyzerTest.givenMessage_whenHappy_ShouldReturnHappy" />
         <item itemvalue="JUnit.MoodAnalyzerTest.givenMessage_whenSad_ShouldReturnSad" />
       </list>
